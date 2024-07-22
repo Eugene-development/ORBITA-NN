@@ -53,7 +53,7 @@ export default function Banner({ data, currentVisibleBanner, changeVisibleBanner
 									d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
 								/>
 							</svg>
-							<span className="ml-2 text-sm text-gray-50 font-display">
+							<span className="ml-2 text-sm text-gray-50 font-display whitespace-pre">
 								{data.city}
 							</span>
 						</div>

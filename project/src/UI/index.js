@@ -17,3 +17,5 @@ export { default as Appeal } from './Appeal/v1'
 export { default as Message } from './Message/v1'
 export { default as MainText } from './MainText/v1'
 export { default as MonthProduct } from './MonthProduct/v1'
+
+export { default as H1 } from './H1'

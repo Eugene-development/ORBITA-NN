@@ -21,11 +21,11 @@ const cards = [
 export default function Example() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-      <img
-        alt=""
-        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+      {/* <img
+        alt="стройматериалы"
+        src="http://kranika.ru/img/services/category-covers/410696102.jpeg"
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
-      />
+      /> */}
       <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl">
         <div
           style={{
@@ -46,8 +46,9 @@ export default function Example() {
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl lg:mx-0">
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-7xl">Стройматериалы в Нижнем Новгороде</h1>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-7xl"> 
+          <span className='sm:text-9xl'>Стройматериалы</span> <br/> в Нижнем Новгороде </h1>
+          <p className="mt-8 text-lg leading-8 text-gray-300">
             Стройматериалы в Нижнем Новгороде по доступным ценам в нашем интернет-магазине. Быстрая доставка, широкий ассортимент продукции и отличное обслуживание.
           </p>
           <p className="mt-2 text-lg leading-8 text-gray-300">

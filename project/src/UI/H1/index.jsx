@@ -1,39 +1,55 @@
-import { LifebuoyIcon, NewspaperIcon, PhoneIcon } from '@heroicons/react/20/solid'
-
+import { CheckIcon } from '@heroicons/react/20/solid'
+// const cards = [
+//   {
+//     name: 'Быстро',
+//     description: 'Доставим до вашего объекта своим транспортом с грузчиками. ',
+//     icon: PhoneIcon,
+//   },
+//   {
+//     name: 'Выгодно',
+//     description: 'Предложим цену на стройматериалы ниже, чем у конкурентов.',
+//     icon: LifebuoyIcon,
+//   },
+//   {
+//     name: 'Надёжно',
+//     description: 'Качество стройматериалов ведущих мировых производителей.',
+//     icon: NewspaperIcon,
+//   },
+// ]
 const cards = [
   {
-    name: 'Быстро',
-    description: 'Доставим до вашего объекта своим транспортом с грузчиками. ',
-    icon: PhoneIcon,
+    name: 'Стройматериалы',
+    description: 'Все материалы для строительства и ремонта зданий и помещений.',
+    icon: CheckIcon,
   },
   {
-    name: 'Выгодно',
-    description: 'Предложим цену на стройматериалы ниже, чем у конкурентов.',
-    icon: LifebuoyIcon,
+    name: 'Изоляция',
+    description: 'Всё для защиты конструкций от внешнего воздействия среды.',
+    icon: CheckIcon,
   },
   {
-    name: 'Надёжно',
-    description: 'Качество стройматериалов ведущих мировых производителей.',
-    icon: NewspaperIcon,
+    name: 'Отделка',
+    description: 'Всё для отделки поверхностей внутри и снаружи помещений.',
+    icon: CheckIcon,
   },
   {
-    name: 'Надёжно',
-    description: 'Качество стройматериалов ведущих мировых производителей.',
-    icon: NewspaperIcon,
+    name: 'Инструмент',
+    description: 'Всё для автоматизации и облегчения труда при проведении работ.',
+    icon: CheckIcon,
   },
   {
-    name: 'Надёжно',
-    description: 'Качество стройматериалов ведущих мировых производителей.',
-    icon: NewspaperIcon,
+    name: 'Сантехника',
+    description: 'Всё для проведения внутренних и наружных сантехнических работ.',
+    icon: CheckIcon,
   },
   {
-    name: 'Надёжно',
-    description: 'Качество стройматериалов ведущих мировых производителей.',
-    icon: NewspaperIcon,
+    name: 'Электротовары',
+    description: 'Всё для качественного и безопасного устройства электрики.',
+    icon: CheckIcon,
   },
 ]
 
-export default function Example() {
+export default () => {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 scroll-py-16 sm:py-20">
       {/* <img
@@ -72,7 +88,7 @@ export default function Example() {
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-6 sm:mt-12 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
           {cards.map((card) => (
-            <div key={card.name} className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+            <div key={card.name} className="flex gap-x-4 rounded-xl bg-white/5 p-5 ring-1 ring-inset ring-white/10">
               <card.icon aria-hidden="true" className="h-7 w-5 flex-none text-red-700" />
               <div className="leading-7">
                 <h3 className="text-base font-semibold text-white">{card.name}</h3>

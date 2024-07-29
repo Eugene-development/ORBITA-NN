@@ -38,7 +38,8 @@ const inCart = create(
 						state.productsInCart.reduce((sum, product) => {
 							let price = product.price
 							let count = product.count
-							return sum + price * count - price * count * 0.05
+							// return sum + price * count - price * count * 0.05
+							return sum + price * count
 						}, 0)
 					)
 				}))

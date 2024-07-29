@@ -82,11 +82,11 @@ export default function Banner({ data, currentVisibleBanner, changeVisibleBanner
 								>
 									<circle cx={1} cy={1} r={1} />
 								</svg>
-								При заказе через наш сайт дополнительная скидка &nbsp;
-								<span aria-hidden="true">
+								При заказе через наш сайт действуют специальные цены
+								{/* <span aria-hidden="true">
 									{' '}
 									<span className="text-red-500">&rarr; &nbsp;</span> 5%
-								</span>
+								</span> */}
 							</div>
 
 							<a
@@ -103,7 +103,7 @@ export default function Banner({ data, currentVisibleBanner, changeVisibleBanner
 								>
 									<circle cx={1} cy={1} r={1} />
 								</svg>
-								Отправьте запрос цен на почту &nbsp;
+								Отправьте запрос цены на почту &nbsp;
 								<span aria-hidden="true">
 									{' '}
 									<span className="text-red-500">&rarr; &nbsp;</span> {data.email}

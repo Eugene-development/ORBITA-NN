@@ -195,7 +195,7 @@ export default ({ rubric }) => {
 						<p className="pt-2 text-lg">Наши цены, ассортимент товаров и применение.</p>
 					</h2>
 				</div>
-				{rubric.rubric_one.text.map(({ key, value }, index) => (
+				{/* {rubric.rubric_one.text.map(({ key, value }, index) => (
 					<div key={index} className="my-4">
 						{key === '1' && (
 							<div
@@ -204,7 +204,7 @@ export default ({ rubric }) => {
 							/>
 						)}
 					</div>
-				))}
+				))} */}
 			</div>
 		</div>
 	)

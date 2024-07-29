@@ -40,11 +40,11 @@ export default function index({ idx, id, name, price, unit }) {
 						</span>
 					</dd>
 					<dt className="sr-only">Цена со скидкой</dt>
-					<dd className="mt-1 truncate">
+					{/* <dd className="mt-1 truncate">
 						<span className="inline-flex rounded-md bg-cyan-100 px-2 text-xs font-semibold leading-5 text-cyan-900">
 							Cо скидкой 5% : {price - price * 0.05} руб / {unit}
 						</span>
-					</dd>
+					</dd> */}
 					<dt className="sr-only sm:hidden">Количество</dt>
 					<dd className="mt-2 mr-20 truncate text-gray-500 sm:hidden">
 						<input
@@ -63,11 +63,11 @@ export default function index({ idx, id, name, price, unit }) {
 					{price} руб / {unit}
 				</span>
 			</td>
-			<td className="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell ">
+			{/* <td className="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell ">
 				<span className="inline-flex rounded-md bg-cyan-100 px-3 py-1 text-sm font-semibold leading-5 text-cyan-900">
 					{Math.ceil(price - price * 0.05)} руб / {unit}
 				</span>
-			</td>
+			</td> */}
 			<td className="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
 				<input
 					value={count}
@@ -78,7 +78,8 @@ export default function index({ idx, id, name, price, unit }) {
 				/>
 			</td>
 			<td className="px-3 py-4 text-sm text-gray-500 w-24">
-				<strong>{Math.ceil(price - price * 0.05) * count}</strong> руб.
+				<strong>{Math.ceil(price) * count}</strong> руб.
+				{/* <strong>{Math.ceil(price - price * 0.05) * count}</strong> руб. */}
 			</td>
 			<td className="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
 				<button

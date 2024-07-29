@@ -207,7 +207,7 @@ export default ({ category }) => {
 						<p className="pt-2 text-lg">Наши цены, ассортимент товаров и применение.</p>
 					</h2>
 				</div>
-				{category.category_one.text.map(({ key, value }, index) => (
+				{/* {category.category_one.text.map(({ key, value }, index) => (
 					<div key={index} className="my-4">
 						{key === '1' && (
 							<div
@@ -216,7 +216,7 @@ export default ({ category }) => {
 							/>
 						)}
 					</div>
-				))}
+				))} */}
 			</div>
 		</div>
 	)

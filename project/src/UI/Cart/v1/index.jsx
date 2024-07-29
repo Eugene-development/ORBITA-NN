@@ -93,12 +93,12 @@ export default () => {
 									>
 										Цена :
 									</th>
-									<th
+									{/* <th
 										scope="col"
 										className="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell"
 									>
 										Cо скидкой 5% :
-									</th>
+									</th> */}
 
 									<th
 										scope="col"

@@ -280,7 +280,7 @@ export default () => {
 						</Link>
 					</Popover.Group>
 					<div className="hidden lg:flex lg:flex-1 lg:justify-end">
-						<a
+						{/* <a
 							href="/blog"
 							className="text-sm font-display font-semibold leading-6 text-gray-900 hover:text-red-700 transition ease-in-out hover:scale-110"
 						>
@@ -288,7 +288,7 @@ export default () => {
 							<span aria-hidden="true" className="text-red-800">
 								&rarr;
 							</span>
-						</a>
+						</a> */}
 					</div>
 				</nav>
 			)}
@@ -349,14 +349,14 @@ export default () => {
 										</Link>
 									))}
 								</div>
-								<div className="py-6">
+								{/* <div className="py-6">
 									<a
 										href="/blog"
 										className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 									>
 										Блог
 									</a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>

@@ -16,32 +16,32 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="ru">
 			<head>
-				{/* <link rel="icon" href="../logo/favicon.ico" sizes="any" /> */}
-				<script src="//code.jivo.ru/widget/2EfbaT2QPD" async></script>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <script src="//code.jivo.ru/widget/2EfbaT2QPD" async></script>
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
-                    //     (function (m, e, t, r, i, k, a) {
-                    //       m[i] =
-                    //         m[i] ||
-                    //         function () {
-                    //           (m[i].a = m[i].a || []).push(arguments);
-                    //         };
-                    //       m[i].l = 1 * new Date();
-                    //       (k = e.createElement(t)),
-                    //         (a = e.getElementsByTagName(t)[0]),
-                    //         (k.async = 1),
-                    //         (k.src = r),
-                    //         a.parentNode.insertBefore(k, a);
-                    //     })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+                        (function (m, e, t, r, i, k, a) {
+                          m[i] =
+                            m[i] ||
+                            function () {
+                              (m[i].a = m[i].a || []).push(arguments);
+                            };
+                          m[i].l = 1 * new Date();
+                          (k = e.createElement(t)),
+                            (a = e.getElementsByTagName(t)[0]),
+                            (k.async = 1),
+                            (k.src = r),
+                            a.parentNode.insertBefore(k, a);
+                        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
 
-                    //     ym(82181533, 'init', {
-                    //       clickmap: true,
-                    //       trackLinks: true,
-                    //       accurateTrackBounce: true,
-                    //       webvisor: true
-                    //     });
-                    // `
+                        ym(82181533, 'init', {
+                          clickmap: true,
+                          trackLinks: true,
+                          accurateTrackBounce: true,
+                          webvisor: true
+                        });
+                    `
 					}}
 				/>
 				<noscript>

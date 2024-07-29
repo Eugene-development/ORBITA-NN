@@ -735,7 +735,7 @@ export default () => {
 							<h3 className="mb-2 text-xl font-bold dark:text-white">
 								{price} р/{unit}
 							</h3>
-							<p className="font-light text-sm text-gray-500 dark:text-gray-400">
+							<p className="h-12 font-light text-sm text-gray-500 dark:text-gray-400">
 								{value}
 							</p>
 							<Button

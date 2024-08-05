@@ -31,7 +31,7 @@ export default () => {
 					<div className="col-end-1 w-16 lg:row-span-4 lg:w-80">
 						<img
 							className="rounded-xl lg:rounded-3xl"
-							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
+							src="https://storage.yandexcloud.net/mine2024/rem-stroy/site/LogoRemStroyPro.png"
 							alt="логотип компании"
 						/>
 					</div>

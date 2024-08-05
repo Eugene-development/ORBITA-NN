@@ -132,7 +132,7 @@ export default () => {
 						<div className="space-y-4">
 							<img
 								className="h-16"
-								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
+								src="https://storage.yandexcloud.net/mine2024/rem-stroy/site/LogoRemStroyPro.png"
 								alt="Логотип"
 							/>
 							<p className="text-sm leading-6 text-gray-300">
@@ -229,8 +229,8 @@ export default () => {
 					</div>
 					<div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
 						<p className="text-xs leading-5 text-gray-400">
-							&copy; 2011-{year} База строительных материалов "Орбита-строй". Интернет
-							магазин стройматериалов.
+							&copy; 2011-{year} Интернет
+							магазин стройматериалов "РемСтройПро". База строительных материалов.
 						</p>
 					</div>
 				</div>

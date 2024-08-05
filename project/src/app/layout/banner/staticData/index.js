@@ -1,6 +1,6 @@
 const data = {
 	city: 'Нижний Новгород',
-	email: 'info@orbita-stroy.com',
+	email: 'orbitaira@yandex.ru',
 	phone: '8 (495) 111-11-11'
 }
 

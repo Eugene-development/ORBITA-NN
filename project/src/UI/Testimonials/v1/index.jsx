@@ -45,7 +45,7 @@ export default () => {
 										<div className="text-base font-medium text-white">
 											Вилков А.Н.
 										</div>
-										<div className="text-base font-medium text-red-500">
+										<div className="text-base font-medium text-gray-200">
 											Генеральный директор
 										</div>
 									</div>
@@ -83,7 +83,7 @@ export default () => {
 										<div className="text-base font-medium text-white">
 											Чернышев В.В.
 										</div>
-										<div className="text-base font-medium text-red-500">
+										<div className="text-base font-medium text-gray-200">
 											Генеральный директор
 										</div>
 									</div>

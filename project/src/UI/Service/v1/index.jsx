@@ -54,19 +54,19 @@ export default ({ features, service }) => {
 							</dl>
 						</div>
 					</div>
-					{service.image && 
-  					<div className="sm:px-6 lg:px-0">
-     					<div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-      						<img
-     							src={service.image}
-     							alt="Услуга"
-     							width={2432}
-     							height={1442}
-     							className="-mb-12 w-[57rem] max-w-none rounded-tl-xl bg-gray-800 ring-1 ring-white/10"
-      						/>
-     					</div>
-  					</div>
-					}
+					{service.image && (
+						<div className="sm:px-6 lg:px-0">
+							<div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+								<img
+									src={service.image}
+									alt="Услуга"
+									width={2432}
+									height={1442}
+									className="-mb-12 w-[57rem] max-w-none rounded-tl-xl bg-gray-800 ring-1 ring-white/10"
+								/>
+							</div>
+						</div>
+					)}
 				</div>
 			</div>
 		</div>

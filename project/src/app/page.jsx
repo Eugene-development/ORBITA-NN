@@ -74,8 +74,7 @@ export const metadata = {
 const Home = () => {
 	return (
 		<>
-		
-		  <H1 />
+			<H1 />
 			{/* <Slider sliders={sliders} /> */}
 			<MonthProduct />
 			<Testimonials />

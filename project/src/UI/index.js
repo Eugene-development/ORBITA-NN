@@ -10,14 +10,11 @@ export { default as About } from './About'
 export { default as Address } from './Address'
 export { default as Map } from './Map'
 
-
 // Catalog
 export { default as Rubric } from './Rubric/v1'
 export { default as ProductList } from './ProductList/v1'
 export { default as Product } from './Product/v2'
 export { default as Category } from './Category/v1'
-
-
 
 // ----
 export { default as Info } from './Info/v2'

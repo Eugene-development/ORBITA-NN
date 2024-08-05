@@ -23,7 +23,7 @@ import { PhoneIcon } from '@heroicons/react/20/solid'
 const navigation = {
 	phones: [
 		{ name: '8 (8314) 23-70-96', href: 'tel:+78314237096' },
-		{ name: '8 (987) 082-64-23', href: 'tel:+79870826423' },
+		{ name: '8 (987) 082-64-23', href: 'tel:+79870826423' }
 	]
 }
 

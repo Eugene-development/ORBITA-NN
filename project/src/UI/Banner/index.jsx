@@ -62,16 +62,15 @@ export default function Banner({ data, currentVisibleBanner, changeVisibleBanner
 								className="h-5 w-5 md:h-5 md:w-5 text-red-500"
 								aria-hidden="true"
 							/>
-							<span className="ml-2 text-sm text-gray-50 whitespace-nowrap">{data.email}</span>
+							<span className="ml-2 text-sm text-gray-50 whitespace-nowrap">
+								{data.email}
+							</span>
 						</a>
 					</div>
 
 					<marquee className="flex" direction="left">
 						<div className="flex space-x-48">
-							<div
-								
-								className="hidden md:block text-sm leading-6 text-gray-50 font-display"
-							>
+							<div className="hidden md:block text-sm leading-6 text-gray-50 font-display">
 								<strong className="font-semibold">
 									Ищите выгодные предложения?
 								</strong>

@@ -8,7 +8,7 @@ import { Service } from '@/UI'
 const service = {
 	title: 'Оплата продукции',
 	description: 'Рассчитывайтесь за строительные материалы удобным для вас способом.',
-	image: "https://www.trn-news.ru/Ru/Upload/Image/rtyuevtfwuedtwfytegfvefjhf.jpg"
+	image: 'https://www.trn-news.ru/Ru/Upload/Image/rtyuevtfwuedtwfytegfvefjhf.jpg'
 }
 
 const features = [

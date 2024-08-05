@@ -18,8 +18,6 @@ export default ({ productID, productName, productPrice, productUnit, productCoun
 		setIsClient(true)
 	}, [])
 
-	
-
 	return (
 		<>
 			{isClient &&

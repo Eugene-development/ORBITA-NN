@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="ru">
 			<head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <script src="//code.jivo.ru/widget/2EfbaT2QPD" async></script>
+        <link rel="icon" href="https://storage.yandexcloud.net/brand-logo/rem-stroy/logo/favicon.svg" sizes="any" />
+        {/* <script src="//code.jivo.ru/widget/2EfbaT2QPD" async></script> */}
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `

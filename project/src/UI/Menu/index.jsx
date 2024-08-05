@@ -111,9 +111,14 @@ export default () => {
 							<span className="sr-only">Орбита-строй</span>
 							<img
 								className="h-12 w-auto"
-								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
+								src="https://storage.yandexcloud.net/mine2024/rem-stroy/site/LogoRemStroyPro.png"
 								alt="Логотип"
 							/>
+							{/* <img
+								className="h-12 w-auto"
+								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
+								alt="Логотип"
+							/> */}
 						</Link>
 					</div>
 					<div className="flex lg:hidden">

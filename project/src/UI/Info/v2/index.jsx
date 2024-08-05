@@ -23,8 +23,7 @@ import { PhoneIcon } from '@heroicons/react/20/solid'
 const navigation = {
 	phones: [
 		{ name: '8 (8314) 23-70-96', href: 'tel:+78314237096' },
-		{ name: '8 (902) 303-36-54', href: 'tel:+79023033654' },
-		{ name: '8 (930) 688-88-62', href: 'tel:+79306888862' }
+		{ name: '8 (987) 082-64-23', href: 'tel:+79870826423' },
 	]
 }
 
@@ -62,7 +61,7 @@ export default () => {
 														className="flex items-center"
 													>
 														<svg
-															className="h-5 w-5 text-red-800 "
+															className="h-5 w-5 text-gray-900"
 															fill="none"
 															stroke="currentColor"
 															strokeWidth="2"
@@ -91,7 +90,7 @@ export default () => {
 
 									<div className="md:hidden flex justify-end">
 										<PhoneIcon
-											className="h-5 w-5 text-red-700"
+											className="h-5 w-5 text-gray-800"
 											aria-hidden="true"
 										/>
 										<Link
@@ -113,14 +112,14 @@ export default () => {
 												>
 													<span className="sr-only">Поиск</span>
 													<MagnifyingGlassIcon
-														className="h-6 w-6"
+														className="h-6 w-6 text-gray-800 group-hover:text-gray-500"
 														aria-hidden="true"
 													/>
 												</button>
 											</div>
 
 											<span
-												className="mx-4 h-6 w-px bg-gray-200 lg:mx-6"
+												className="mx-3 h-6 w-px bg-gray-300 lg:mx-4"
 												aria-hidden="true"
 											/>
 
@@ -130,7 +129,7 @@ export default () => {
 													className="group -m-2 flex items-center p-2"
 												>
 													<ShoppingCartIcon
-														className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+														className="h-6 w-6 flex-shrink-0 text-gray-800 group-hover:text-gray-500"
 														aria-hidden="true"
 													/>
 													<span className="w-8 ml-2 text-2xl font-medium text-red-800 group-hover:text-gray-800">

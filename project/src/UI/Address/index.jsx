@@ -12,12 +12,10 @@ export default () => {
 				<div className="mx-auto max-w-7xl px-6 lg:px-8">
 					<div className="mx-auto max-w-2xl lg:mx-0">
 						<h2 className="text-3xl font-bold tracking-tight text-gray-900">
-							Наши адреса
+							Наш адрес
 						</h2>
 						<p className="mt-6 text-lg leading-8 text-gray-600">
-							Для вашего удобства наши торговые подразделения расположены в разных
-							частях города. На выезде со стороны Нижнего Новгорода с одной стороны и
-							на строительном рынке "Ярмарка" с другой.
+							Для вашего удобства наши склады расположены на выезде из города Дзержинск в сторону Нижнего Новгорода.
 						</p>
 					</div>
 					<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none">
@@ -99,7 +97,7 @@ export default () => {
 								</div>
 							</address>
 						</div>
-						<div>
+						{/* <div>
 							<h3 className="border-l border-red-600 pl-6 font-semibold text-gray-900">
 								Дзержинск, ул. Космонавтов, 4-Б
 							</h3>
@@ -128,7 +126,7 @@ export default () => {
 											</svg>
 										</div>
 										<div className="ml-3 text-base ">
-											<p>8 (902) 303-36-54</p>
+											<p>8 (987) 082-64-23</p>
 										</div>
 									</div>
 									<div className="mt-6 flex">
@@ -176,7 +174,7 @@ export default () => {
 									</div>
 								</div>
 							</address>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

@@ -189,10 +189,10 @@ export default ({ rubric }) => {
 				<div>
 					<h2 className="mx-auto  py-1 text-xl  tracking-wide text-slate-800">
 						<strong className="inline-flex py-1 text-2xl font-semibold tracking-wide text-gray-800">
-							{rubric.rubric_one.value} со склада в Дзержинске.
+							{rubric.rubric_one.value} со склада в Дзержинске по низкой цене.
 						</strong>
 						<br />
-						<p className="pt-2 text-lg">Наши цены, ассортимент товаров и применение.</p>
+						{/* <p className="pt-2 text-lg">Наши цены, ассортимент товаров и применение.</p> */}
 					</h2>
 				</div>
 				{/* {rubric.rubric_one.text.map(({ key, value }, index) => (

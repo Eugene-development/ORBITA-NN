@@ -105,7 +105,7 @@ export default ({ catalog }) => {
 				</FadeIn>
 				<div>
 					<h2 className="inline-flex py-1 text-2xl font-semibold tracking-wide text-gray-800">
-						{catalog.catalog_one.value}. Цены, описание и применение.
+						{catalog.catalog_one.value}. Цены на продукцию и применение.
 					</h2>
 				</div>
 				{/* <div

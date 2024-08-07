@@ -1,7 +1,7 @@
 'use server'
 import axios from 'axios'
 
-const url = '/send-order-orbita-dzr'
+const url = '/send-order-remstroypro'
 
 const apiMAIL = {
 	baseURL: process.env.NEXT_PUBLIC_MAIL,
@@ -12,6 +12,6 @@ const apiMAIL = {
 }
 
 export async function send(data) {
-	// console.log('123', url, data, apiMAIL)
+	// console.log(url, data, apiMAIL)
 	await axios.post(url, data, apiMAIL)
 }

@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:18.17.1
+FROM --platform=linux/amd64 node:20.5.0
 
 WORKDIR /project
 COPY . .

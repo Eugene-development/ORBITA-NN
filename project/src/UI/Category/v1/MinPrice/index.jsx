@@ -5,7 +5,7 @@ export default function index(prop) {
 	const [products] = useState(prop.data)
 
 	const getMinPrice = () => {
-		const prices = products.map((product) => product.price.value)
+		const prices = products.map((product) => product.price?.value)
 		return Math.min(...prices)
 	}
 

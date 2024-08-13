@@ -64,7 +64,7 @@ export default ({ product }) => {
 							<div className="flex items-center">
 								<p className="text-sm text-gray-900 sm:text-lg">
 									{' '}
-									{product.product_one.price.value} &#8381;
+									{product.product_one.price?.value} &#8381;
 									{product.product_one.unit && <span>/</span>}
 									{product.product_one.unit?.value}
 								</p>
@@ -224,8 +224,8 @@ export default ({ product }) => {
 									<Button
 										productID={product.product_one.id}
 										productName={product.product_one.value}
-										productPrice={product.product_one.price.value}
-										productUnit={product.product_one.unit.value}
+										productPrice={product.product_one.price?.value}
+										productUnit={product.product_one.unit?.value}
 									/>
 								</div>
 								<div className="mt-6 text-center">

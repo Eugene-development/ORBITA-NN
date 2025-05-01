@@ -21,7 +21,7 @@ export default () => {
 						<blockquote className="text-base font-semibold leading-8 text-gray-900 sm:text-lg sm:leading-9">
 							<p>
 								Интернет магазин базы стройматериалов "РемСтройПро" предлагает в
-								сезоне 2024-2025 годов наилучшие предложения по ассортименту и ценам
+								сезоне 2025 года наилучшие предложения по ассортименту и ценам
 								на строительные и отделочные материалы, а так же на напольные
 								покрытия и метизную продукцию. Если вас интересуют стройматериалы в
 								Нижнем Новгороде, то мы ждём ваших заказов!
@@ -31,7 +31,7 @@ export default () => {
 					<div className="col-end-1 w-16 lg:row-span-4 lg:w-80">
 						<img
 							className="rounded-xl lg:rounded-3xl"
-							src="https://storage.yandexcloud.net/mine2024/rem-stroy/site/LogoRemStroyPro.png"
+							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
 							alt="логотип компании"
 						/>
 					</div>

@@ -39,10 +39,10 @@ export default () => {
 				<div className="mx-auto max-w-7xl px-6 lg:px-8">
 					<div className="mx-auto max-w-5xl lg:mx-0">
 						<h2 className="text-4xl font-display font-bold tracking-tight text-gray-900 sm:text-6xl">
-							РемСтройПро
+							Орбита-Строй
 						</h2>
 						<p className="mt-6 text-lg leading-8 text-gray-700">
-							Интернет магазин «РемСтройПро» с 2011 года успешно продает строительные
+							Интернет магазин «Орбита-Строй» с 2011 года успешно продает строительные
 							и отделочные материалы оптом и в розницу. С нами Вы легко сможете
 							подобрать нужный и экономичный материал для выполнения различных
 							строительно-отделочных работ. Наши специалисты также помогут подготовить
@@ -83,8 +83,8 @@ export default () => {
 					</div>
 				</div>
 				<img
-					src="https://storage.yandexcloud.net/mine2024/rem-stroy/site/LogoRemStroyPro.png"
-					alt="Product screenshot"
+					src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
+					alt="Логотип компании Орбита-Строй"
 					className="mx-auto mt-24 w-[24rem] max-w-none sm:w-[36rem]"
 					width={2432}
 					height={1442}

@@ -8,7 +8,7 @@ export default () => {
 						className=" font-extrabold tracking-tight text-white sm:text-4xl"
 					>
 						<span className="mb-6 block text-3xl sm:text-5xl text-gray-50">
-							"РемСтройПро"
+							"Орбита-Строй"
 						</span>
 						<span className="block text-white text-base sm:text-3xl">
 							База строительных и отделочных материалов в Нижнем Новгороде

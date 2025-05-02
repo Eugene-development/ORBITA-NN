@@ -71,7 +71,7 @@ export default () => {
 											</svg>
 										</div>
 										<div className="ml-3 text-base ">
-											<p>orbitaira@yandex.ru</p>
+											<p>info@orbita-stroy.com</p>
 										</div>
 									</div>
 									<div className="mt-6 flex">

@@ -1,7 +1,7 @@
 export default () => {
 	return (
 		<div className="bg-gray-900">
-			<div className="max-w-7xl mx-auto py-20 px-8 sm:px-6 lg:flex lg:items-center lg:py-24 lg:px-12">
+			<div className="max-w-7xl mx-auto py-20 px-8 sm:px-6 lg:flex lg:items-center lg:py-32 lg:px-12">
 				<div className="  text-center lg:w-0 lg:flex-auto">
 					<h2
 						id="newsletter-headline"

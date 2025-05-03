@@ -58,7 +58,7 @@ const cards = [
 
 export default () => {
 	return (
-		<div className="relative isolate overflow-hidden bg-gray-900 scroll-py-16 sm:py-20">
+		<div className="relative isolate overflow-hidden bg-gray-50 scroll-py-16 sm:py-20">
 			{/* <img
         alt="стройматериалы"
         src="http://kranika.ru/img/services/category-covers/410696102.jpeg"
@@ -70,7 +70,7 @@ export default () => {
 						clipPath:
 							'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)'
 					}}
-					className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+					className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-10"
 				/>
 			</div>
 			<div className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu">
@@ -79,18 +79,18 @@ export default () => {
 						clipPath:
 							'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)'
 					}}
-					className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+					className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-10"
 				/>
 			</div>
 			<div className="mx-auto max-w-7xl px-6 lg:px-8 py-6">
 				<div className="mx-auto max-w-4xl lg:mx-0">
-					<h1 className="text-3xl font-bold tracking-tight text-white sm:text-7xl">
+					<h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-7xl">
 						<span className="sm:text-9xl">Стройматериалы</span> <br /> в Нижнем
 						Новгороде{' '}
 					</h1>
-					<p className="mt-6 text-sm sm:text-lg leading-6 text-gray-300">
+					<p className="mt-6 text-sm sm:text-lg leading-6 text-gray-800">
 						Стройматериалы в Нижнем Новгороде по доступным ценам в нашем
-						интернет-магазине. Быстрая доставка, широкий ассортимент продукции и
+						интернет-магазине. Быстрая доставка со склада, широкий ассортимент продукции и
 						отличное обслуживание.
 					</p>
 					{/* <p className="mt-2 text-lg leading-8 text-gray-300">
@@ -102,15 +102,15 @@ export default () => {
 						<Link
 							key={card.name}
 							href={`/shop/rubric/${card.href}`}
-							className="transition ease-in-out hover:scale-110 flex gap-x-4 rounded-xl bg-white/5 p-5 ring-1 ring-inset ring-white/10"
+							className="transition ease-in-out hover:scale-110 flex gap-x-4 rounded-xl bg-gray-200/10 p-5 ring-1 ring-inset ring-gray-200"
 						>
 							<card.icon
 								aria-hidden="true"
 								className="h-7 w-5 flex-none text-red-700"
 							/>
 							<div className="leading-7">
-								<h3 className="text-base font-semibold text-white">{card.name}</h3>
-								<p className="text-sm sm:text-base mt-2 text-gray-300">
+								<h3 className="text-base font-semibold text-gray-900">{card.name}</h3>
+								<p className="text-sm sm:text-base mt-2 text-gray-800">
 									{card.description}
 								</p>
 							</div>

@@ -749,7 +749,7 @@ const monthProduct = [
 export default () => {
 	return (
 		<section className="font-display">
-			<div className="py-8 px-4 mx-auto max-w-screen-2xl sm:py-16 lg:px-6">
+			<div className="py-8 px-4 mx-auto max-w-screen-2xl sm:py-24 lg:px-6">
 				<div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-16">
 					<h2 className="mb-4 text-xl sm:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
 						Стройматериалы по сниженным ценам

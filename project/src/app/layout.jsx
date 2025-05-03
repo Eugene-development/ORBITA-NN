@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
               k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
               (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
             
-              ym(98010884, "init", {
+              ym(101561936, "init", {
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true,
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
 				<noscript>
 					<div>
 						<img
-							src="https://mc.yandex.ru/watch/98010884"
+							src="https://mc.yandex.ru/watch/101561936"
 							style={{ position: 'absolute', left: '-9999px' }}
 							alt=""
 						/>
